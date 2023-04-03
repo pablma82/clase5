@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ12</title>
+</head>
+<header>
+    <a href="index.html" target="_blank">Volver</a>
+</header>
+<body>
+    <form>
+        <div class="formulario">
+        <h2>Ejercicio 12</h2>
+        <label for="nombreDelCliente">Nombre del cliente: </label>
+        <input type="text" name="nombreDelCliente" id="nombreDelCliente" required autocomplete="off">
+        <br>
+        <br>
+        <label for="seleccion">Material de la caja: </label>
+        <select name="name" id="MaterialDeLaCaja">
+            <option value="madera">Madera</option>
+            <option value="carton">Carton</option>
+            <option value="reciclada">Reciclado</option>
+            <option value="metal">Metal</option>
+        </select>
+        
+    </div>
+      </form>
+
+      <form action="" class="radio">
+        <div class="radio">
+
+            <p>Seleccione las dimesiones para la caja: </p>
+
+            <input type="radio" name="tamaño" value="grande" id="grande">
+            <label for="grande">Grande</label>
+            <br>
+            <input type="radio" name="tamaño" value="mediano" id="mediano">
+            <label for="mediano">Mediano</label>
+            <br>
+            <input type="radio" name="tamaño" value="pequeño" id="pequeño">
+            <label for="pequeño">Pequeño</label>
+            <br>
+            <br>
+        </div>
+      </form>
+
+      <form action="" class="formulario2">
+        <textarea class="form_input from_input--message" placeholder="mensaje:"name="mensaje"></textarea>
+      </form>
+      <br>
+      <button type="button" onclick="formularioCaja()">ENVIAR</button>
+      
+</body>
+<footer>
+    <script src="form.js"></script>
+</footer>
+
+</html>
